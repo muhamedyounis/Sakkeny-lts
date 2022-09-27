@@ -1,0 +1,255 @@
+<!-- Header Container
+
+================================================== -->
+
+
+
+
+
+<!-- Topbar -->
+
+<div id="top-bar">
+
+    <div class="container">
+
+
+
+        <!-- Left Side Content -->
+
+        <div class="left-side">
+
+
+
+            <!-- Top bar -->
+
+            <ul class="top-bar-menu">
+
+                <li><i class="fa fa-phone"></i> +20 106 635 3887 </li>
+
+                <li><i class="fa fa-envelope"></i> <a href="#">support@sakkeny.com</a></li>
+
+            </ul>
+
+
+
+        </div>
+
+        <!-- Left Side Content / End -->
+
+
+
+
+
+        <!-- Left Side Content -->
+
+        <div class="right-side">
+
+
+
+            <!-- Social Icons -->
+
+            <ul class="social-icons">
+
+                <li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
+
+                <li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
+
+                <li><a class="gplus" href="#"><i class="icon-gplus"></i></a></li>
+
+                <li><a class="pinterest" href="#"><i class="icon-pinterest"></i></a></li>
+
+            </ul>
+
+
+
+        </div>
+
+        <!-- Left Side Content / End -->
+
+
+
+    </div>
+
+</div>
+
+<div class="clearfix"></div>
+
+<!-- Topbar / End -->
+
+
+
+
+
+<!-- Header -->
+
+<div id="header">
+
+    <div class="container">
+
+
+
+        <!-- Left Side Content -->
+
+        <div class="left-side">
+
+
+
+            <!-- Logo -->
+
+            <div id="logo">
+
+                <a href="index.html"><img src="images/sakkeny-logo-en.png" alt=""></a>
+
+            </div>
+
+
+
+
+
+            <!-- Mobile Navigation -->
+
+            <div class="mmenu-trigger">
+
+                <button class="hamburger hamburger--collapse" type="button">
+
+                    <span class="hamburger-box">
+
+                        <span class="hamburger-inner"></span>
+
+                    </span>
+
+                </button>
+
+            </div>
+
+
+
+
+
+            <!-- Main Navigation -->
+
+            <nav id="navigation" class="style-1">
+
+                <ul id="responsive">
+
+
+
+                    <li><a class="" href="index.html">Home</a>
+
+
+                    </li>
+
+
+                    <li><a href="single-property-page-1.html">Search</a>
+
+                    </li>
+
+                    <li><a href="blog.html">Blog</a>
+
+                    </li>
+
+                    <li><a href="contact.html">Contact Us</a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="clearfix"></div>
+
+            <!-- Main Navigation / End -->
+
+
+
+        </div>
+
+        <!-- Left Side Content / End -->
+
+
+
+        <!-- Right Side Content / End -->
+
+        <div class="right-side">
+
+            <!-- Header Widget -->
+
+            <div class="header-widget">
+
+                <a href="login-register.html" class="sign-in"><i class="fa fa-user"></i> Log In /
+                    Register</a>
+
+                <a href="submit-property.html" class="button border">Submit Property</a>
+
+            </div>
+
+            <!-- Header Widget / End -->
+
+        </div>
+
+        <!-- Right Side Content / End -->
+
+
+
+    </div>
+
+</div>
+
+<!-- Header / End -->
+
+
+
+
+
+<div class="clearfix"></div>
+
+<!-- Header Container / End -->
+
+<script>
+    /*----------------------------------------------------*/
+
+    /*  Sticky Header
+
+    /*----------------------------------------------------*/
+
+    if (!window.location.pathname.includes('property')) {
+        $("#header").not("#header-container.header-style-2 #header").clone(true).addClass('cloned unsticky').insertAfter("#header");
+
+        $("#navigation.style-2").clone(true).addClass('cloned unsticky').insertAfter("#navigation.style-2");
+    }
+
+
+    // Logo for header style 2
+
+    $("#logo .sticky-logo").clone(true).prependTo("#navigation.style-2.cloned ul#responsive");
+
+
+
+
+
+    // sticky header script
+
+    var headerOffset = $("#header-container").height() * 2; // height on which the sticky header will shows
+
+
+
+    $(window).scroll(function () {
+
+        if ($(window).scrollTop() >= headerOffset) {
+
+            $("#header.cloned").addClass('sticky').removeClass("unsticky");
+
+            $("#navigation.style-2.cloned").addClass('sticky').removeClass("unsticky");
+
+        } else {
+
+            $("#header.cloned").addClass('unsticky').removeClass("sticky");
+
+            $("#navigation.style-2.cloned").addClass('unsticky').removeClass("sticky");
+
+        }
+
+    });
+
+
+</script>

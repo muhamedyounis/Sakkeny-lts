@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.942" height="83.346" viewBox="0 0 48.942 83.346">
+  <g id="move-now-icon" transform="translate(-0.511 -0.992)">
+    <path id="Path_1298" data-name="Path 1298" d="M8.834,1.345a1.675,1.675,0,0,1,1.441-.3L43.28,9.436a1.675,1.675,0,0,1,1.262,1.623V75.392a1.675,1.675,0,0,1-1.314,1.635L10.222,84.3a1.675,1.675,0,0,1-2.035-1.635v-80A1.675,1.675,0,0,1,8.834,1.345Zm2.7,3.476V80.58l29.656-6.534V12.361Z" transform="translate(4.911)" fill="#fff" fill-rule="evenodd"/>
+    <path id="Path_1299" data-name="Path 1299" d="M.511,3.381H14.773V6.73H3.86v64.9H6.105V8.416h8.668v3.349H9.455V74.979H.511Z" transform="translate(0 1.528)" fill="#fff" fill-rule="evenodd"/>
+    <path id="Path_1300" data-name="Path 1300" d="M14.937,26.687a.843.843,0,1,0,.843.843A.843.843,0,0,0,14.937,26.687Zm-4.192.843a4.192,4.192,0,1,1,4.192,4.192A4.192,4.192,0,0,1,10.746,27.53Z" transform="translate(6.548 14.297)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

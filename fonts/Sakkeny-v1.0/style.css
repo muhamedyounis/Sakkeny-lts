@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Sakkeny';
+  src:  url('fonts/Sakkeny.eot?1sgvun');
+  src:  url('fonts/Sakkeny.eot?1sgvun#iefix') format('embedded-opentype'),
+    url('fonts/Sakkeny.ttf?1sgvun') format('truetype'),
+    url('fonts/Sakkeny.woff?1sgvun') format('woff'),
+    url('fonts/Sakkeny.svg?1sgvun#Sakkeny') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="sakk-"], [class*=" sakk-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Sakkeny' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sakk-area:before {
+  content: "\e900";
+  color: #58585a;
+}
+.sakk-bathroom:before {
+  content: "\e901";
+  color: #58585a;
+}
+.sakk-bedrooms:before {
+  content: "\e902";
+  color: #58585a;
+}
+.sakk-bookmark:before {
+  content: "\e903";
+}
+.sakk-Buyhome_HP:before {
+  content: "\e904";
+  color: #fff;
+}
+.sakk-compare:before {
+  content: "\e905";
+  color: #702c8a;
+}
+.sakk-facebook .path1:before {
+  content: "\e906";
+  color: rgb(51, 127, 255);
+}
+.sakk-facebook .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.sakk-heart-empty:before {
+  content: "\e908";
+  color: #fff;
+}
+.sakk-megaphone:before {
+  content: "\e99c";
+  color: #702c8a;
+}
+.sakk-move-now-icon:before {
+  content: "\e99d";
+  color: #fff;
+}
+.sakk-pencil-edit:before {
+  content: "\e99e";
+  color: #fff;
+}
+.sakk-sellhome_HP:before {
+  content: "\e99f";
+  color: #fff;
+}
+.sakk-twitter .path1:before {
+  content: "\e9a0";
+  color: rgb(51, 204, 255);
+}
+.sakk-twitter .path2:before {
+  content: "\e9a1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.sakk-whatsapp .path1:before {
+  content: "\e9a2";
+  color: rgb(0, 217, 95);
+}
+.sakk-whatsapp .path2:before {
+  content: "\e9a3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.sakk-whatsapp .path3:before {
+  content: "\e9a4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.sakk-wishlist:before {
+  content: "\e9a5";
+  color: #fff;
+}
